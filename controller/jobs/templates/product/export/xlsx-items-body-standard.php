@@ -1,7 +1,7 @@
 <?php
 $enc = $this->encoder();
 $domains = array( 'attribute', 'media', 'price', 'product', 'text' );
-
+echo "***";
 $cols = ["item_code" => 'string', 
 		 "item_label" => 'string', 
 		 "item_type" => 'string', 
@@ -111,5 +111,3 @@ if(is_file($excel_path)){
     unlink($excel_path);
 }
 $wExcel->writeToFile($excel_path); 
-//echo "Yazıldı: $excel_path";
-die();

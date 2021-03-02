@@ -49,9 +49,7 @@ class Standard
 	public function run()
 	{
 		$container = $this->createContainer();
-
 		$files = $this->export( $container );
-
 		$container->close();
         return $files;
 	}
@@ -77,8 +75,8 @@ class Standard
 		$location = $config->get( 'controller/jobs/product/export/xlsx/location' );
 		$view->excel_path = $location.'/'.$this->getFilename( 1 );
 		$view->file_name = $this->getFilename( 1 );
-
 		$content->add( $view->render( $context->getConfig()->get( $tplconf, $default ) ) );
+
 	}
 
 
