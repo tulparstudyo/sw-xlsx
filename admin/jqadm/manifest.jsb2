@@ -1,0 +1,22 @@
+{
+	"projectName": "sw-xlsx",
+	"licenseText": "proprietary",
+	"pkgs": [{
+		"name": "sw-xlsx CSS",
+		"file": "sw-xlsx.css",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.css",
+			"path": "themes/"
+		}]
+	}, {
+		"name": "sw-xlsx JS",
+		"file": "sw-xlsx.js",
+		"isDebug": true,
+		"fileIncludes": [{
+			"text": "custom.js",
+			"path": "themes/"
+		}]
+	}],
+	"resources" : []
+}
