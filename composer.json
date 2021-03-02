@@ -1,6 +1,6 @@
 {
-	"name": "aimeos/sw-xlsx",
-	"description": "Aimeos sw-xlsx extension",
+	"name": "tulparstudyo/sw-xlsx",
+	"description": "Aimeos sw-xlsx extension Swordbros",
 	"keywords": ["aimeos", "extension"],
 	"type": "aimeos-extension",
 	"license": "LGPL-3.0",
