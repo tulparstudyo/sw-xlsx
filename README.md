@@ -5,7 +5,7 @@ Product Import &amp; Export for Aimeos
 php artisan aimeos:jobs "product/export/xlsx" "default"
 php artisan aimeos:jobs "product/import/xlsx" "default"
 ```
-## Using in Laravel controller
+## Example of using Laravel on the controller
 ```
 // Export xlsx file
 <?php
